@@ -53,5 +53,5 @@ Instead of juggling braces and semicolons, properties are aligned using tabs for
 ---
 
 💡 Weld CSS and Weld HTM are experimental formats. Use them if you prefer a lighter syntax with clean indentation, but still want full editor support in VS Code.
-You'd the Weld bundler installed to make use of these formats for your PWAs
+You'd need the Weld bundler installed to make use of these formats for your PWAs
 

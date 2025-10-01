@@ -1,0 +1,41 @@
+{
+	"name": "weld-vscode-support",
+	"displayName": "Weld Support",
+	"description": "Weld Support, Syntax Highlighting, Icons, css.w htm.w",
+	"version": "1.5.8",
+	"engines": {
+		"vscode": "^1.104.0"
+	},
+	"categories": [
+		"Programming Languages"
+	],
+	"contributes": {
+		"languages": [{
+			"id": "cssw",
+			"aliases": ["Weld CSS", "cssw"],
+			"extensions": [".css.w"],
+			"configuration": "./language-configuration.json"
+		}, {
+			"id": "htmw",
+			"aliases": ["Weld HTM", "htmw"],
+			"extensions": [".htm.w"],
+			"configuration": "./language-configuration.json"
+		}],
+		"grammars": [{
+			"language": "htmw",
+			"scopeName": "source.htmw",
+			"path": "./syntaxes/htmw.tmLanguage.json"
+		}, {
+			"language": "cssw",
+			"scopeName": "source.cssw",
+			"path": "./syntaxes/cssw.tmLanguage.json"
+		}],
+		"iconThemes": [
+			{
+				"id": "weld-icons",
+				"label": "Weld Icons",
+				"path": "./icons.json"
+			}
+		]
+	}
+}
